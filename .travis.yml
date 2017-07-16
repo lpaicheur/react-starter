@@ -10,5 +10,5 @@ script:
   - yarn test
 after_success:
   - yarn coverage
-  - yarn global codecov
-  - codecov
+  - yarn add codecov
+  - yarn codecov
