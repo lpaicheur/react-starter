@@ -8,3 +8,7 @@ cache:
 script:
   - yarn run build
   - yarn test
+after_success:
+  - yarn coverage
+  - yarn global codecov
+  - codecov
