@@ -11,4 +11,4 @@ script:
 after_success:
   - yarn coverage
   - yarn global add codecov
-  - yarn codecov
+  - codecov
